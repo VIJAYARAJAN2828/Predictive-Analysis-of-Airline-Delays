@@ -42,18 +42,19 @@ Grid Search and Randomized Search were employed to optimize model performance.
 Model Performance : 
 
 
-| Model                          | RMSE Test | R² Test | MAPE Test |
-|--------------------------------|-----------|---------|-----------|
-| LinearRegression               | 0.4103    | 0.8307  | 1.0029    |
-| Ridge                          | 0.4103    | 0.8307  | 1.0029    |
-| DecisionTreeRegressor          | 0.3439    | 0.8810  | 0.8713    |
-| AdaBoostRegressor              | 0.7024    | 0.5038  | 2.6344    |
-| RandomForestRegressor          | 0.2371    | 0.9435  | 0.6305    |
-| RandomForestRegressor (Tuned)  | 0.2398    | 0.9422  | 0.6329    |
-| GradientBoostingRegressor      | 0.2864    | 0.9175  | 0.7923    |
-| DecisionTreeRegressor (Tuned)  | 0.2763    | 0.9232  | 0.7432    |
-| Ridge (Tuned)                  | 0.4103    | 0.8307  | 1.0029    |
+## Model Performance
 
+| Model                              | RMSE Test | R² Test | MAPE Test |
+|------------------------------------|-----------|---------|-----------|
+| LinearRegression                   | 0.410268  | 0.830719| 1.002868  |
+| Ridge                              | 0.410268  | 0.830719| 1.002865  |
+| DecisionTreeRegressor              | 0.343930  | 0.881037| 0.871270  |
+| AdaBoostRegressor                  | 0.702380  | 0.503846| 2.634380  |
+| RandomForestRegressor              | 0.237093  | 0.943466| 0.630453  |
+| RandomForestRegressor (Tuned)      | 0.239797  | 0.942169| 0.632974  |
+| GradientBoostingRegressor          | 0.286417  | 0.917497| 0.792345  |
+| DecisionTreeRegressor (Tuned)      | 0.276330  | 0.923206| 0.743198  |
+| Ridge (Tuned)                      | 0.410268  | 0.830719| 1.002865  |
 
 
 Key Insights: Random Forest Regressor (with and without tuning) achieved the best performance, indicating its robustness in handling complex relationships in the data.
